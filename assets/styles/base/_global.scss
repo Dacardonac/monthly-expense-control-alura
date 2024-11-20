@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  background: url('../img/code.svg'), linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
