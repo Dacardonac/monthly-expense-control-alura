@@ -98,6 +98,24 @@
             }
         }
 
+        &-btn--edit {
+            cursor: pointer;
+            background-color: var(--orange);
+            color: var(--white);
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 1rem;
+            margin-left: 10rem;
+            margin-right: 10px;
+            padding: 10px;
+
+            &:hover, &:focus {
+                transition: 0.2s ease;
+                background-color: var(--orange-dark);
+                scale: 0.99;
+            }
+        }
+
         &-btn--delete {
             cursor: pointer;
             background-color: var(--red);
@@ -105,7 +123,7 @@
             font-size: 1rem;
             font-weight: bold;
             border-radius: 1rem;
-            margin: 0 10px 0 10rem;
+            margin-right: 10px;
             padding: 10px;
 
             &:hover, &:focus {

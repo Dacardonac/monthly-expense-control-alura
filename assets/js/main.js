@@ -50,7 +50,7 @@ function updateExpenseList() {
     htmlList += `
       <li class="main__container-list--li" data-position="${position}">
         <strong>${name}</strong> - USD$ ${value.toFixed(2)}<br>
-        ${description ? `<em>${description}</em>` : ''}
+        ${description ? `<em> ${description}</em>` : ' '}
         <button class="main__container-btn--edit">Edit</button>
         <button class="main__container-btn--delete">Delete</button>
       </li>
