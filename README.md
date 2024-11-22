@@ -4,12 +4,12 @@ This is a monthly expense manager with input validation, alerts and the function
 
 ## Demo 🚀
 
-- **[Deploy in Vercel]()**
+- **[Deploy in Vercel](https://monthly-expense-control-alura.vercel.app/)**
 
 ### Screenshots 📷
 
-  ![desktop-design]()
-  ![desktop-active-design]()
+  ![desktop-design](./public/design/desktop-design.webp)
+  ![desktop-active-design](./public/design/desktop-active-design.webp)
 
 ## Requirements ✅
 
